@@ -1,8 +1,8 @@
 require('dotenv').config();
 import OpenAI from "openai";
 const openai = new OpenAI({
-    apiKey: process.env.API_KEY,
-    baseURL: process.env.URL,
+    apiKey: process.env.NEXT_PUBLIC_API_KEY,
+    baseURL: process.env.NEXT_PUBLIC_URL,
     dangerouslyAllowBrowser: true
 })
 
